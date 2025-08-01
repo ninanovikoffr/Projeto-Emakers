@@ -1,5 +1,5 @@
 import React from 'react'
-import './Input.css' // Importando o CSS específico do componente
+import './Input.css' 
 
 function Input({placeholder, type="text"}){
     return(

@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 
-.registrarGeral {
-  display: flex;
-  background: #FBF8F4;
-  margin: -8px
+.loginGeral {
+    display: flex;
+    background: #FBF8F4;
+    margin: -8px;
 }
-.registrar{
+.login{
     margin-top: 64px;
-    margin-left: 110px; 
+    margin-left: 170px; 
     margin-bottom: 60px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -16,27 +16,21 @@
     font-weight: 400;
     position: center;
 }
-.registrarCaixa {
+.loginCaixa {
     width: 475px;
     height: 1024px;
     background: #FBF8F4;
     margin-left: 0px;
     margin-right: 60px;
+    margin-top:20px;
 }
-.imagemGrande{
-    height: 1024px;
-    width: 1024px;
-    overflow: hidden;
-}
-.imagemGrande img {
+.ImagemGrande{
     margin-top: -155px;
-    margin-left: -12px;
-    width: 115%;
-    height: 115%;
-    object-fit: cover;
+    margin-left: -40px;
+    
 }
 
-.fazerLogin{
+.criarconta{
     background: #FBF8F4;
     border: 0px solid;
     font-family: 'Montserrat';
@@ -45,7 +39,20 @@
     color: #97A4A2;
     font-size: 24px;
     margin-left: 56px;
-    margin-top: 130px;
+    margin-top: 470px;
+}
+
+.recuperarconta{
+    background: #FBF8F4;
+    border: 0px solid;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    color: #97A4A2;
+    font-size: 24px;
+    margin-left: 56px;
+    margin-top: 20px;
+   
 }
 
 .seta{
