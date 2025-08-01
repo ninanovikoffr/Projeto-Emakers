@@ -1,10 +1,11 @@
-import Registrar from './pages/Registrar.jsx'; // Importando o componente Registrar
+import Registrar from './pages/Registrar.jsx'; 
 import Login from './pages/Login.jsx';
+import Recuperar from './pages/Recuperar.jsx'; 
 
 function App() {
   return (
     <div className="App">
-      <Login />
+      <Recuperar />
     </div>
   );
 }

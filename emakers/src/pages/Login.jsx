@@ -24,6 +24,7 @@ function Login (){
             <div>
                 <button className="seta">  <img src={setaimagem} alt="Seta"/> </button>
             </div>
+            
 
             <button href="/Registrar.jsx" className="criarconta"> Criar Conta</button>
             <button href="/RecuperarConta" className="recuperarconta"> Esqueceu a Senha? </button>   
