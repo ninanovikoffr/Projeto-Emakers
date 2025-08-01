@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.registrarGeral {
+    display: flex;
+    background: #FBF8F4;
+    margin: -8px
+}
+.registrar{
+    margin-top: 64px;
+    margin-left: 106px; 
+    margin-bottom: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #4B626C;
+    font-size: 64px;
+    font-weight: 400;
+    position: center;
+}
+.registrarCaixa {
+    width: 475px;
+    height: 1024px;
+    background: #FBF8F4;
+    margin-left: 0px;
+    margin-right: 60px;
+}
+.imagemGrande{
+    height: 1024px;
+    width: 1024px;
+    overflow: hidden;
+}
+.imagemGrande img {
+    margin-top: -155px;
+    margin-left: -45px;
+    width: 115%;
+    height: 115%;
+    object-fit: cover;
+}
+
+  
