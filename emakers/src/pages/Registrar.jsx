@@ -12,6 +12,7 @@ function Registrar (){
         <div className="registrarCaixa">
 
             <div className="registrar">Registrar</div>
+
             <div>
                 <Input placeholder="Nome de Usuário" type="text" />
             </div>
@@ -29,7 +30,10 @@ function Registrar (){
             </div>
 
         </div>
-
+        
+        <div className="botaofazerlogin">
+            <a href="/login" className="fazerLogin"> Fazer Login</a>
+        </div>
 
         <div className="imagemGrande"> 
             <img src={img} alt="iamgem ilustrativa do site"/>

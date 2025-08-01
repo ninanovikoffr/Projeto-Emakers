@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 .registrarGeral {
-    display: flex;
-    background: #FBF8F4;
-    margin: -8px
+  display: flex;
+  background: #FBF8F4;
+  margin: -8px
 }
 .registrar{
     margin-top: 64px;
@@ -30,7 +30,7 @@
 }
 .imagemGrande img {
     margin-top: -155px;
-    margin-left: -45px;
+    margin-left: -15px;
     width: 115%;
     height: 115%;
     object-fit: cover;
