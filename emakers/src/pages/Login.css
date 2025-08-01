@@ -25,9 +25,16 @@
     margin-top:20px;
 }
 .ImagemGrande{
+    height: 1024px;
+    width: 1024px;
+    overflow: hidden;
+}
+.ImagemGrande img {
     margin-top: -155px;
-    margin-left: -40px;
-    
+    margin-left: -12px;
+    width: 115%;
+    height: 115%;
+    object-fit: cover;
 }
 
 .criarconta{
@@ -39,7 +46,7 @@
     color: #97A4A2;
     font-size: 24px;
     margin-left: 56px;
-    margin-top: 470px;
+    margin-top: 420px;
 }
 
 .recuperarconta{
