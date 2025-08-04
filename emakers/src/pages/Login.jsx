@@ -3,9 +3,12 @@ import './Login.css' // Importando o CSS específico da página
 import Input from '../componentes2/Input.jsx' // Importando o componente de Input
 import '../componentes2/Input.css' // Importando o CSS específico do componente
 import setaimagem from '../assets/seta.svg'; // Importando a imagem da seta
+import { useNavigate } from 'react-router-dom';
  
 
 function Login (){
+    const navigate = useNavigate();
+
     return (
         <div className="loginGeral">
 
@@ -13,6 +16,7 @@ function Login (){
 
             <div className="login">Login</div>
 
+            <form>
             <div>
                 <Input placeholder="E-mail" type="email" />
             </div>
@@ -20,14 +24,16 @@ function Login (){
             <div>
                 <Input placeholder="Senha" type="password" />
             </div>
+            </form>
             
             <div>
                 <button className="seta">  <img src={setaimagem} alt="Seta"/> </button>
             </div>
             
-
-            <button href="/Registrar.jsx" className="criarconta"> Criar Conta</button>
-            <button href="/RecuperarConta" className="recuperarconta"> Esqueceu a Senha? </button>   
+            <div>
+            <button onClick={() => navigate('/registrar')} className="criarconta"> Criar Conta</button>
+            <button onClick={() => navigate('/recuperar')} className="recuperarconta"> Esqueceu a Senha? </button>   
+            </div>
 
         </div>
 
@@ -39,3 +45,6 @@ function Login (){
     );
 }
 export default Login;
+
+
+

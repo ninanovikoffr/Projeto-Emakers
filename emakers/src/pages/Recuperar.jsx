@@ -3,15 +3,18 @@ import './Recuperar.css' // Importando o CSS específico da página
 import Input from '../componentes2/Input.jsx' // Importando o componente de Input
 import '../componentes2/Input.css' // Importando o CSS específico do componente
 import setaimagem from '../assets/seta.svg'; // Importando a imagem da seta
+import { useNavigate } from 'react-router-dom';
  
 
 function Recuperar (){
+    const navigate = useNavigate();
+
     return (
         <div className="recuperarGeral">
 
         <div className="recuperarCaixa">
 
-            <div className="recuperarconta">Recuperar Conta</div>
+            <div className="recuperarConta">Recuperar Conta</div>
 
             <div>
                 <Input placeholder="E-mail" type="email" />
@@ -22,8 +25,8 @@ function Recuperar (){
             </div>
 
             <div className="grupo">
-            <button href="/Registrar.jsx" className="criarConta"> Criar Conta</button> 
-            <button href="/Fazerlogin" className="fazerLogin"> Fazer Login </button>  
+            <button onClick={() => navigate('/registrar')} className="criarConta"> Criar Conta</button> 
+            <button onClick={() => navigate('/')} className="fazerLogin"> Fazer Login </button>  
             </div> 
 
         </div>

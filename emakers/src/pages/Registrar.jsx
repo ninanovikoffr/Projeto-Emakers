@@ -4,15 +4,19 @@ import './Registrar.css' // Importando o CSS específico da página
 import Input from '../componentes2/Input.jsx' // Importando o componente de Input
 import '../componentes2/Input.css' // Importando o CSS específico do componente
 import setaimagem from '../assets/seta.svg'; // Importando a imagem da seta
+import { useNavigate } from 'react-router-dom';
  
 
 function Registrar (){
+    const navigate = useNavigate();
+
     return (
         <div className="registrarGeral">
 
         <div className="registrarCaixa">
 
             <div className="registrar">Registrar</div>
+
 
             <div>
                 <Input placeholder="Nome de Usuário" type="text" />
@@ -33,7 +37,7 @@ function Registrar (){
                 <button className="seta">  <img src={setaimagem} alt="Seta"/> </button>
             </div>
 
-            <button href="/login" className="fazerLogin"> Fazer Login</button>
+            <button onClick={() => navigate('/')} className="fazerLogin"> Fazer Login</button>
 
         </div>
 

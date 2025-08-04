@@ -46,6 +46,7 @@
     font-size: 24px;
     margin-left: 56px;
     margin-top: 130px;
+    cursor: pointer;
 }
 
 .seta{
@@ -55,4 +56,5 @@
     border: 0px solid;
     margin-left: 430px;
     margin-top: -25px;
+    cursor: pointer;
 }

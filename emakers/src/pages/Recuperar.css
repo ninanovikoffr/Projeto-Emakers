@@ -5,7 +5,7 @@
     background: #FBF8F4;
     margin: -8px;
 }
-.recuperarconta{
+.recuperarConta{
     margin-top: 64px;
     margin-left: 60px; 
     margin-bottom: 60px;
@@ -55,6 +55,7 @@
     font-size: 24px;
     margin-left: 56px;
     margin-top: 450px;
+    cursor: pointer;
 }
 
 
@@ -68,6 +69,7 @@
     font-size: 24px;
     margin-left: 56px;
     margin-top: 20px;
+    cursor: pointer;
    
 }
 
@@ -78,4 +80,5 @@
     border: 0px solid;
     margin-left: 430px;
     margin-top: -25px;
+    cursor: pointer;
 }
