@@ -5,6 +5,7 @@ import '../componentes2/Input.css' // Importando o CSS específico do componente
 import setaimagem from '../assets/seta.svg'; // Importando a imagem da seta
 import { useNavigate } from 'react-router-dom';
 import { useRef } from 'react';
+import { useState } from 'react';
  
 
 function Login (){
@@ -13,12 +14,27 @@ function Login (){
     const emailRef = useRef(null);
     const senhaRef = useRef(null);
 
+    const [email, setEmail] = useState('');
+    const [senha, setSenha] = useState('');
+
+
     const handleKeyDown = (e, proximoInput) => {
         if (e.key === 'Enter') {
         e.preventDefault(); 
         proximoInput.current.focus();
         }
     };
+
+    const handleLogin = () => {
+
+        console.log('Email:', email);           
+        console.log('Senha:', senha);        
+
+            if (email && senha) {                 
+                navigate('/conta');          
+            }
+    };
+
 
     return (
         <div className="loginGeral">
@@ -29,14 +45,14 @@ function Login (){
 
             <form>
             <div>
-                <Input placeholder="E-mail" type="email" ref={emailRef} onKeyDown={(e) => handleKeyDown(e, senhaRef)}/>
+                <Input placeholder="E-mail" type="email" ref={emailRef} value={email} onChange={(e) => setEmail(e.target.value)} onKeyDown={(e) => handleKeyDown(e, senhaRef)}/>
             </div>
         
             <div>
-                <Input placeholder="Senha" type="password" ref={senhaRef} onKeyDown={(e) => { 
+                <Input placeholder="Senha" type="password" ref={senhaRef} value={senha} onChange={(e) => setSenha(e.target.value)} onKeyDown={(e) => { 
                     if (e.key === 'Enter') {
                     e.preventDefault(); 
-                    navigate('/conta'); }
+                    handleLogin(); }
                     }
                 }/>
             </div>
