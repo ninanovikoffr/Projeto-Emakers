@@ -4,7 +4,7 @@ import Input from '../componentes2/Input.jsx' // Importando o componente de Inpu
 import '../componentes2/Input.css' // Importando o CSS específico do componente
 import setaimagem from '../assets/seta.svg'; // Importando a imagem da seta
 import { useNavigate } from 'react-router-dom';
- 
+
 
 function Recuperar (){
     const navigate = useNavigate();
