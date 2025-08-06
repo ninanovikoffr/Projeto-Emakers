@@ -27,8 +27,7 @@ function Login (){
 
     const handleLogin = () => {
 
-        console.log('Email:', email);           
-        console.log('Senha:', senha);        
+        console.log('Email:', email);                 
 
             if (email && senha) {                 
                 navigate('/conta');          
@@ -59,11 +58,11 @@ function Login (){
             </form>
             
             <div>
-                <button className="seta" onClick={() => navigate('/conta')}>  <img src={setaimagem} alt="Seta"/> </button>
+                <button className="seta" onClick={() =>{ if (email.trim() && senha.trim()) {navigate('/conta');} else {alert('Preencha o e-mail e a senha.');}}}> <img src={setaimagem} alt="Seta"/> </button>
             </div>
             
             <div>
-            <button onClick={() => {navigate('/registrar'); console.log("clicou")}} className="criarconta"> Criar Conta</button>
+            <button onClick={() => navigate('/registrar')} className="criarconta"> Criar Conta</button>
             <button onClick={() => navigate('/recuperar')} className="recuperarconta"> Esqueceu a Senha? </button>   
             </div>
 
@@ -77,6 +76,5 @@ function Login (){
     );
 }
 export default Login;
-
 
 

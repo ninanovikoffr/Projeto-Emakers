@@ -36,7 +36,7 @@
     object-fit: cover;
 }
 
-.fazerLogin{
+.FazerLogin{
     background: #FBF8F4;
     border: 0px solid;
     font-family: 'Montserrat';
@@ -45,7 +45,7 @@
     color: #97A4A2;
     font-size: 24px;
     margin-left: 56px;
-    margin-top: 130px;
+    margin-top: 120px;
     cursor: pointer;
 }
 
