@@ -3,6 +3,7 @@ import './NavBar.css';
 import img from '../assets/imagempeq.svg'; 
 import { useNavigate } from 'react-router-dom';
 import linha from '../assets/linha.svg'; 
+import lupa from '../assets/lupa.svg';
 
 function NavBar() {
     return(
@@ -39,6 +40,9 @@ function NavBar() {
             </div>
             <div className="Buscar">
                 <input type="text" className="buscar"/>
+                <div className="lupa">
+                <img src={lupa} />
+                </div>
             </div>
         </nav>
     );
