@@ -1,12 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;&display=swap');
+
 .navbar{
     background-color: #FBF6F0;
     width: 100%;
     height: 100px;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+    position: relative;
+    display: flex;
+    gap: 2.3%;
 }
 
 .logo{
     width: 99px;
     height: 99px;
     margin-left: 40px;
+}
+
+.Buscar{
+    margin-top: 2%;
+    margin-left: 1%;
+
+}
+
+.buscar{
+    height: 55%;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    border: 0px;
+    background-color: #97A4A273;
+}
+
+
+.Populares{
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 300;
+    color: #4B626C;
+}
+
+.Links{
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 300;
+    color: #4B626C;
+}
+
+.Linha{
+    margin-top: 2%;
 }
