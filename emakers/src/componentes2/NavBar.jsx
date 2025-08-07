@@ -17,8 +17,8 @@ function NavBar() {
             <div className="Linha">
                 <img src={linha} />
             </div>
-            <div className="Populares">
-                <p className="pop">Populares</p>
+            <div className="Links">
+                <p className="pop" onClick={() => navigate('/Populares')}>Populares</p>
             </div>
             <div className="Linha">
                 <img src={linha} />
