@@ -1,8 +1,8 @@
 import imagem from '../assets/imagemgrande.svg';
-import './Login.css' // Importando o CSS específico da página
-import Input from '../componentes2/Input.jsx' // Importando o componente de Input
-import '../componentes2/Input.css' // Importando o CSS específico do componente
-import setaimagem from '../assets/seta.svg'; // Importando a imagem da seta
+import './Login.css'
+import Input from '../componentes2/Input.jsx' 
+import '../componentes2/Input.css' 
+import setaimagem from '../assets/seta.svg'; 
 import { useNavigate } from 'react-router-dom';
 import { useRef } from 'react';
 import { useState } from 'react';
