@@ -6,6 +6,8 @@ import linha from '../assets/linha.svg';
 import lupa from '../assets/lupa.svg';
 
 function NavBar() {
+    const navigate = useNavigate();
+    
     return(
         <nav className="navbar">
             <div>

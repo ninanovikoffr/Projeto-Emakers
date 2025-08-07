@@ -4,6 +4,7 @@ import Registrar from './pages/Registrar.jsx';
 import RecuperarConta from './pages/Recuperar.jsx'; 
 import './App.css';
 import Conta from './pages/Conta.jsx'; 
+import Populares from './pages/Populares.jsx';
 import React from 'react';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/registrar" element={<Registrar />} />
         <Route path="/recuperar" element={<RecuperarConta />} />
         <Route path="/conta" element={<Conta />} />
+        <Route path="/Populares" element={<Populares/>} />
       </Routes>
     </BrowserRouter>
   );
