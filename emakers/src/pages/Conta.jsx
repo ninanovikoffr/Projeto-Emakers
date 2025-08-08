@@ -7,6 +7,8 @@ import bobEsponja from '../assets/bobesponja.png';
 import deliver from '../assets/deliver.png';
 import godWar from '../assets/god.png';
 import death from '../assets/death.png';
+import lixo from '../assets/lixo.svg';
+import lapis from '../assets/lapis.svg';
 
 
 
@@ -48,6 +50,28 @@ function Conta() {
                 </div>
                 <div className="carrinho" > <img src={carrinho} /> </div>
             </div>
+            <div className="textoprinc">
+                <div className="Ola">
+                    <p>{"Olá, <<Nome do Usuário>>"} </p>
+                </div>
+                <div className="seuemail">
+                    <p>Seu email é nomeusuario@email.com </p>
+                </div>
+                <div className="seucpf">
+                    <p>Seu CPF é 123.456.789-00</p>
+                </div>
+                <div className="botao1">
+                    <button className="alterar"> Alterar Dados <img src={lapis} className="lapis" /> </button>
+                </div>
+                <div className="botao2">
+                    <button className="excluir"> Excluir Conta <img src={lixo} className="lixo" /> </button>
+                </div>
+                <div>
+                    <button className="telaAdmin"> Tela do admin </button>
+                </div>
+            </div>
+
+
         </div>
     );
 }
