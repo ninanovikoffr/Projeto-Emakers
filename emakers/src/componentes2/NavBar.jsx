@@ -38,7 +38,7 @@ function NavBar() {
                 <img src={linha} />
             </div>
             <div className="Links">
-                <p className="cont">Conta</p>
+                <p className="cont" onClick={() => navigate('/Conta')} >Conta</p>
             </div>
             <div className="Buscar">
                 <input type="text" className="buscar"/>

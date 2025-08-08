@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;400;500&display=swap');
+
+.FooterGeral{
+    margin-top:80%;
+    background-color:#97A4A2;
+    width: 100%;
+    height: 393px;
+    font-family:'Montserrat';
+    color: #FFFFFF;
+}
+
+.logofooter img{
+    margin-top:6.5%;
+    margin-left:2%;
+    width: 164px;
+    height: 164px;
+    border-radius:5px;
+
+}
+
+.gamedame{
+    width:329px;
+    height:150px;
+    margin-top: -12%;
+    margin-left: 12%;
+    font-size:32px;
+    font-weight: 300;
+    text-align: center;
+    
+}
+
+.game{
+    font-size:36px;
+    font-weight: 700;
+    margin-bottom: -8%;
+    color: #FBF8F3
+}
+
+.explorar{
+    margin-top: -14%;
+    font-size:32px;
+    font-weight: 400;
+    text-align: center;
+    width:100%;
+    line-height: 0.6;
+
+}
+
+
+.titulo1{
+    font-size:36px;
+    font-weight: 500;
+}
+
+
+.contato{
+    margin-top: -14.5%;
+    font-size:24px;
+    font-weight: 400;
+    margin-left: 70%;
+    line-height: 1;
+
+}
+
+.titulo2{
+    font-size:36px;
+    font-weight: 500;
+    margin-bottom: -1%
+
+}
+
+
+.autoria{
+    font-weight:300;
+    font-size:24px;
+    width:100%;
+    text-align:center;
+    color:#4B626C;
+    margin-top:5.5%
+}
+
+.mail, .spot, .telefone{
+    width:24px;
+    height:24px;
+    vertical-align: middle;
+
+}
+
