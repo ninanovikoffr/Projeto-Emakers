@@ -17,6 +17,10 @@
     padding-left: 15px; 
 }
 
+.inputGeral:focus {
+    outline: none;
+}
+
 .inputGeral::placeholder {
     color: #97A4A2;
     font-weight: 100;
