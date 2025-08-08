@@ -8,7 +8,7 @@ import spot from '../assets/spot.png';
 
 function Footer (){
     const navigate = useNavigate();
-    
+
     return(
         <footer className="FooterGeral">
             <div className="logofooter">
@@ -21,9 +21,9 @@ function Footer (){
             </div>
             <div className="explorar">
                 <p className="titulo1">Explorar</p>
-                <p>Início</p>
-                <p onClick={() => navigate('/Populares')}>Populares</p>
-                <p onClick={() => navigate('/Conta')}>Conta</p>
+                <p style={{cursor: "pointer"}} onClick={() => navigate('/')}>Início</p>
+                <p style={{cursor: "pointer"}} onClick={() => navigate('/Populares')}>Populares</p>
+                <p style={{cursor: "pointer"}} onClick={() => navigate('/Conta')}>Conta</p>
 
             </div>
             <div className="contato">

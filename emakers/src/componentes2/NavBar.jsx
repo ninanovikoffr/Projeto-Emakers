@@ -14,7 +14,7 @@ function NavBar() {
                 <img src={img} alt="Logo" className="logo" onClick={() => navigate('/')} />
             </div>
             <div className="Links">
-                <p className="lanc">Lançamentos</p>
+                <p className="lanc" onClick={() => navigate('/')}>Lançamentos</p>
             </div>
             <div className="Linha">
                 <img src={linha} />
@@ -26,13 +26,13 @@ function NavBar() {
                 <img src={linha} />
             </div>
             <div className="Links">
-                <p className="gen">Gêneros</p>
+                <p className="gen" onClick={() => navigate('/')}>Gêneros</p>
             </div>
             <div className="Linha">
                 <img src={linha} />
             </div>
             <div className="Links">
-                <p className="prom">Promoções</p>
+                <p className="prom" onClick={() => navigate('/')}>Promoções</p>
             </div>
             <div className="Linha">
                 <img src={linha} />
