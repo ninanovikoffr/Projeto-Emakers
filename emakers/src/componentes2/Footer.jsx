@@ -7,8 +7,10 @@ import spot from '../assets/spot.png';
 
 
 function Footer (){
+    const navigate = useNavigate();
+    
     return(
-        <div className="FooterGeral">
+        <footer className="FooterGeral">
             <div className="logofooter">
                 <img src={logofooter} classname="imagemlogo" />
             </div>
@@ -20,8 +22,8 @@ function Footer (){
             <div className="explorar">
                 <p className="titulo1">Explorar</p>
                 <p>Início</p>
-                <p>Populares</p>
-                <p>Conta</p>
+                <p onClick={() => navigate('/Populares')}>Populares</p>
+                <p onClick={() => navigate('/Conta')}>Conta</p>
 
             </div>
             <div className="contato">
@@ -37,7 +39,7 @@ function Footer (){
 
             </div>
 
-        </div>
+        </footer>
 
     );
 }
