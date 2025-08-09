@@ -10,7 +10,7 @@
     font-size: 36px;
     font-weight: 700;
     margin-left: 7%;
-    margin-top: 2%
+    margin-top: 2%;
 
 }
 
@@ -84,6 +84,7 @@
     width: 95%;
     height: 20%;
     align-items:top;
+    z-index:3;
 }
 
 .caixapop2{
@@ -102,3 +103,35 @@
 
 }
 
+.classificacao1 {
+    margin-left: 7.6%;
+    margin-top: -1%;
+    position: absolute;
+    z-index:90;
+
+}
+
+.classificacao2 {
+    margin-left: 58.5%;
+    margin-top: -23%;
+    z-index:90;
+    position: absolute;
+
+}
+
+.classificacao3 {
+    margin-left: 7.4%;
+    margin-top: -0.2%;
+    position: absolute;
+    z-index:90;
+
+}
+
+.carrinhopops {
+    margin-left: 91%;
+    margin-top: -4%;
+    position: absolute;
+    z-index:90;
+    cursor:pointer;
+
+}

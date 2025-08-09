@@ -7,6 +7,9 @@ import '../componentes2/Footer.css';
 import godofwar from '../assets/godofwargrande.png';
 import horizon from '../assets/horizon.png';
 import daysgone from '../assets/daysgone.png';
+import botaocarrinho from '../assets/botaocarrinho.svg';
+import bolinha from '../assets/bolinha.svg';
+
 
 function Populares() {
     return (
@@ -18,7 +21,7 @@ function Populares() {
                 <p>Populares</p>
             </div>
             <div className="classificacao1">
-                <img/>
+                <img src={bolinha}/>
             </div>
             <div className="caixapop1">
                 <div className="imagem1">
@@ -39,10 +42,10 @@ function Populares() {
                 </div>
             </div>
             <div className="classificacao2">
-                <img/>
+                <img src={bolinha}/>
             </div>
             <div className="classificacao3">
-                <img/>
+                <img src={bolinha}/>
             </div>
             <div className="caixapop3">
                 <div className="imagem3">
@@ -54,7 +57,7 @@ function Populares() {
                 </div>
             </div>
             <div className="carrinhopops">
-                <img/>
+                <img src={botaocarrinho} onClick={() => navigate('/')}/>
             </div>
             <div>
                 <Footer/>

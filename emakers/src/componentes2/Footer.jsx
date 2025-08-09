@@ -21,9 +21,9 @@ function Footer (){
             </div>
             <div className="explorar">
                 <p className="titulo1">Explorar</p>
-                <p style={{cursor: "pointer"}} onClick={() => navigate('/')}>Início</p>
-                <p style={{cursor: "pointer"}} onClick={() => navigate('/Populares')}>Populares</p>
-                <p style={{cursor: "pointer"}} onClick={() => navigate('/Conta')}>Conta</p>
+                <p><span className="link" onClick={() => navigate('/')}>Início</span></p>
+                <p><span className="link" onClick={() => navigate('/Populares')}>Populares</span></p>
+                <p><span className="link" onClick={() => navigate('/Conta')}>Conta</span></p>
 
             </div>
             <div className="contato">
