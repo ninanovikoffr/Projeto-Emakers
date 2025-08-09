@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;300;500;700;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
 
 .popularesGeral{
+    background-color: #FBF6F0;
     height:1684px;
 }
 
@@ -104,7 +106,7 @@
 }
 
 .classificacao1 {
-    margin-left: 7.6%;
+    margin-left: 7.4%;
     margin-top: -1%;
     position: absolute;
     z-index:90;
@@ -125,6 +127,17 @@
     position: absolute;
     z-index:90;
 
+}
+
+.classificacao1 p, .classificacao2 p, .classificacao3 p{
+    font-family: "Montserrat";
+    font-size:24px;
+    font-weight:600;
+    color:#FBF6F0;
+    position: absolute;   /* joga o texto por cima da imagem */
+    top: -23%;             /* centraliza verticalmente */
+    left: 31%;            /* centraliza horizontalmente */
+    
 }
 
 .carrinhopops {

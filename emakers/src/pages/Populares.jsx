@@ -21,7 +21,7 @@ function Populares() {
                 <p>Populares</p>
             </div>
             <div className="classificacao1">
-                <img src={bolinha}/>
+                <img src={bolinha}/> <p>1°</p>
             </div>
             <div className="caixapop1">
                 <div className="imagem1">
@@ -42,10 +42,10 @@ function Populares() {
                 </div>
             </div>
             <div className="classificacao2">
-                <img src={bolinha}/>
+                <img src={bolinha}/> <p>2°</p>
             </div>
             <div className="classificacao3">
-                <img src={bolinha}/>
+                <img src={bolinha}/> <p>3°</p>
             </div>
             <div className="caixapop3">
                 <div className="imagem3">
