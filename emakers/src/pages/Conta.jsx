@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import React from 'react';
 import './Conta.css';
 import NavBar from '../componentes2/NavBar.jsx';
-import carrinho from '../assets/imagemcarrinho.svg'; 
+import carrinho from '../assets/botaocarrinho.svg'; 
 import bobEsponja from '../assets/bobesponja.png';
 import deliver from '../assets/deliver.png';
 import godWar from '../assets/god.png';
@@ -48,7 +48,9 @@ function Conta() {
                 </div>
                 </div>
                 </div>
-                <div className="carrinho" > <img src={carrinho} /> </div>
+                <div className="carrinho" > 
+                    <img src={carrinho} /> 
+                </div>
             </div>
             <div className="textoprinc">
                 <div className="Ola">

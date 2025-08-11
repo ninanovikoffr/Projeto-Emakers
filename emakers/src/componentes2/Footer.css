@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 .FooterGeral{
-    position:relative;
-    margin-top: 3%;
+    
     z-index:10000;
     background-color:#97A4A2;
     width: 100%;

@@ -21,7 +21,7 @@ function Footer (){
             </div>
             <div className="explorar">
                 <p className="titulo1">Explorar</p>
-                <p><span className="link" onClick={() => navigate('/')}>Início</span></p>
+                <p><span className="link" onClick={() => navigate('/Principal')}>Início</span></p>
                 <p><span className="link" onClick={() => navigate('/Populares')}>Populares</span></p>
                 <p><span className="link" onClick={() => navigate('/Conta')}>Conta</span></p>
 

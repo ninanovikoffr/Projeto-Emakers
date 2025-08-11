@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+.partebaixo{
+    background-color:#4B626C;
+    height:364px;
+}
+
+.carrinhoprinc{
+    position:absolute;
+}
+
+.LANÇAMENTOS{
+    font-family:"Montserrat";
+    font-weight: 300;
+    color:#FBF8F3;
+    margin-left: 5%;
+    margin-top: -0.6%;
+    font-size:32px;
+
+}
