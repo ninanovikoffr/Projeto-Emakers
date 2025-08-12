@@ -12,6 +12,8 @@ import bolinha from '../assets/bolinha.svg';
 import { useNavigate } from 'react-router-dom';
 
 function Populares() {
+    const navigate = useNavigate();
+    
     return (
         <div className="popularesGeral">
             <div>
@@ -25,7 +27,7 @@ function Populares() {
             </div>
             <div className="caixapop1">
                 <div className="imagem1">
-                    <img src={godofwar} onClick={() => navigate('/Jogo')}/>
+                    <img src={godofwar} onClick={() => navigate('/jogo')}/>
                 </div>
                 <div className="textinho1">
                     <p className="titulo1pop">God of War</p> 

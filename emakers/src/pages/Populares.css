@@ -138,9 +138,9 @@
     font-size:24px;
     font-weight:600;
     color:#FBF6F0;
-    position: absolute;   /* joga o texto por cima da imagem */
-    top: -23%;             /* centraliza verticalmente */
-    left: 31%;            /* centraliza horizontalmente */
+    position: absolute;   
+    top: -23%;            
+    left: 31%;           
     
 }
 

@@ -125,6 +125,7 @@
 .bobEsponja{
     width: 190px;
     height: 250px;
+    cursor:pointer
 }
 
 .bobEsponja img{
@@ -135,6 +136,7 @@
 .deliver{
     width: 190px;
     height: 250px;
+    cursor:pointer
 }
 
 .deliver img{
@@ -151,6 +153,7 @@
 .godWar{
     width: 190px;
     height: 250px;
+    cursor:pointer
 }
 
 .godWar img{
@@ -162,6 +165,7 @@
 .death{
     width: 190px;
     height: 250px;
+    cursor:pointer
 
 }
 
@@ -181,6 +185,8 @@
 }
 
 .carrinho{
+    position:absolute;
     margin-top: -10%;
     margin-left: 75%;
+    cursor:pointer
 }
