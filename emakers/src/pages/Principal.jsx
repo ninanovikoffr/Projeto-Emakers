@@ -13,6 +13,11 @@ import img2 from '../assets/deliver.png';
 import img3 from '../assets/spellforce.png';
 import img4 from '../assets/death.png';
 import img5 from '../assets/perish.png';
+import img6 from '../assets/bobesponja.png';
+import img7 from '../assets/deliver.png';
+import img8 from '../assets/spellforce.png';
+import img9 from '../assets/death.png';
+import img10 from '../assets/perish.png';
 
 
 function Principal(){
@@ -22,6 +27,11 @@ function Principal(){
     { image: img3, price: '299,00' },
     { image: img4, price: '299,00' },
     { image: img5, price: '299,00' },
+    { image: img6, price: '299,00' },
+    { image: img7, price: '299,00' },
+    { image: img8, price: '299,00' },
+    { image: img9, price: '299,00' },
+    { image: img10, price: '299,00' },
   ];
 
     return(
