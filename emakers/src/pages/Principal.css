@@ -3,18 +3,31 @@
 .partebaixo{
     background-color:#4B626C;
     height:364px;
+    position: relative; 
 }
 
 .carrinhoprinc{
-    position:absolute;
+    position: absolute;
+    right: 24px;                   
+    bottom: 2%;
+    z-index: 10;
 }
 
 .LANÇAMENTOS{
+    position:absolute;
     font-family:"Montserrat";
     font-weight: 300;
     color:#FBF8F3;
-    margin-left: 5%;
+    margin-left: 9%;
     margin-top: -0.6%;
     font-size:32px;
 
+}
+
+.carrosselPeq{
+    margin-left: 9%;
+    margin-top:5.5%;
+    width: 90%;
+    max-width: 1300px;
+    
 }
