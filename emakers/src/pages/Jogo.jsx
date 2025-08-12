@@ -24,11 +24,11 @@ function Jogo(){
 
                         <div className="bannerjogos">
                         <div className="banner1">
-                            <p></p>
+                            <p>-40%</p>
 
                         </div>
                         <div className="banner2">
-                            <p></p>
+                            <p>R$ 119,95</p>
 
                         </div>
                 </div>
