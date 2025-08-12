@@ -54,7 +54,7 @@ function Registrar (){
                 }/>
             </div>
             <div>
-                <button className="seta" onClick={() => navigate('/conta')}>  <img src={setaimagem} alt="Seta"/> </button>
+                <button className="seta" alt="seta para a direita" onClick={() => navigate('/conta')}>  <img src={setaimagem} alt="Seta"/> </button>
             </div>
 
             <button onClick={() => navigate('/')} className="FazerLogin"> Fazer Login</button>

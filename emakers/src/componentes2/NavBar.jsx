@@ -11,7 +11,7 @@ function NavBar() {
     return(
         <nav className="navbar">
             <div>
-                <img src={img} alt="Logo" className="logo" onClick={() => navigate('/')} />
+                <img src={img} alt="Logo do site" className="logo" onClick={() => navigate('/')} />
             </div>
             <div className="Links">
                 <p className="lanc" onClick={() => navigate('/')}>Lançamentos</p>

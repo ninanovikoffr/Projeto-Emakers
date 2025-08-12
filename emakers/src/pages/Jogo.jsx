@@ -6,10 +6,13 @@ import imagemjogo from '../assets/godofwargigante.png';
 import divisoria from '../assets/divisoria.svg';
 import carrinhopeq from '../assets/carrinhopequeno.svg';
 import bola from '../assets/bolinha.svg';
+import { useNavigate } from 'react-router-dom';
 
 
 
 function Jogo(){
+    const navigate = useNavigate();
+    
     return(
         <div className="JogoGeral">
             <div>
@@ -20,7 +23,7 @@ function Jogo(){
             </div>
             <div className="CaixaJogo">
                 <div className="imagemjogo">
-                    <img src={imagemjogo} />
+                    <img src={imagemjogo} alt="imagem do jogo God of War" />
 
                         <div className="bannerjogos">
                         <div className="banner1">
@@ -48,12 +51,12 @@ function Jogo(){
                     </div>
 
                     <div className="botoesjogos">
-                    <button className="botaojogo1">
+                    <button className="botaojogo1" onClick={() => navigate('/')}>
                         <p>Adicionar ao Carrinho</p>
                         <img src={carrinhopeq} />
 
                     </button>
-                    <button className="botaojogo2">
+                    <button className="botaojogo2" onClick={() => navigate('/')}>
                         <p>Solicitar Reembolso</p>
                         <img src={carrinhopeq} />
 
@@ -64,8 +67,8 @@ function Jogo(){
         </div>
         
         
-                <div className="carrinhoJogo">
-                    <img src={carrinhoJogo}/>
+                <div className="carrinhoJogo" alt="botao para o carrinho">
+                    <img src={carrinhoJogo} onClick={() => navigate('/')}/>
 
                 </div>
             <div>

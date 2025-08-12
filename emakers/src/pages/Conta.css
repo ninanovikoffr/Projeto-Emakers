@@ -79,7 +79,7 @@
 .telaAdmin{
     width: 270px;
     height: 45px;
-    background-color: #a5b0b3;
+    background-color: #4b626c80;
     border: 0px;
     border-radius: 10px;
     cursor: pointer;
@@ -186,7 +186,7 @@
 
 .carrinho{
     position:absolute;
-    margin-top: -10%;
+    margin-top: 7%;
     margin-left: 75%;
     cursor:pointer
 }

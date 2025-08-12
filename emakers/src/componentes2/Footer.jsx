@@ -12,7 +12,7 @@ function Footer (){
     return(
         <footer className="FooterGeral">
             <div className="logofooter">
-                <img src={logofooter} className="imagemlogo" />
+                <img src={logofooter} className="imagemlogo" alt="logo do site" />
             </div>
             <div className="gamedame">
                 <p className="game" >Game Dame </p>

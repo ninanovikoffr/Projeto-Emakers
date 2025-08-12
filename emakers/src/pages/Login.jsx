@@ -58,7 +58,7 @@ function Login (){
             </form>
             
             <div>
-                <button className="seta" onClick={() =>{ if (email.trim() && senha.trim()) {navigate('/conta');} else {alert('Preencha o e-mail e a senha.');}}}> <img src={setaimagem} alt="Seta"/> </button>
+                <button className="seta" alt="seta para a direita" onClick={() =>{ if (email.trim() && senha.trim()) {navigate('/conta');} else {alert('Preencha o e-mail e a senha.');}}}> <img src={setaimagem} alt="Seta"/> </button>
             </div>
             
             <div>

@@ -27,7 +27,7 @@ function Populares() {
             </div>
             <div className="caixapop1">
                 <div className="imagem1">
-                    <img src={godofwar} onClick={() => navigate('/jogo')}/>
+                    <img src={godofwar} alt="imagem do jogo God of War" onClick={() => navigate('/jogo')}/>
                 </div>
                 <div className="textinho1">
                     <p className="titulo1pop">God of War</p> 
@@ -40,7 +40,7 @@ function Populares() {
                     <p>Em um futuro distante, dominado por máquinas colossais que vagam pela Terra, a natureza retomou as ruínas da nossa civilização esquecida e pequenos grupos de sobreviventes se dividem em diferentes tribos. Empunhe o arco e a lança de Aloy, uma jovem caçadora de máquinas exilada da sua tribo, que parte em busca da verdade sobre suas origens e o misterioso mundo que ela precisa salvar.  </p>
                 </div>
                 <div className="imagem2">
-                    <img src={horizon}/>
+                    <img src={horizon} alt="imagem do jogo Horizon Zero Down"/>
                 </div>
             </div>
             <div className="classificacao2">
@@ -51,7 +51,7 @@ function Populares() {
             </div>
             <div className="caixapop3">
                 <div className="imagem3">
-                    <img src={daysgone}/>
+                    <img src={daysgone} alt="imagem do jogo Days Gone"/>
                 </div>
                 <div className="textinho3">
                     <p className="titulo3pop">Days Gone</p> 

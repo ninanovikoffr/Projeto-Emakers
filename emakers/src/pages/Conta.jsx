@@ -25,24 +25,24 @@ function Conta() {
                     <p className="jogosadq"> Jogos adquiridos: </p>
                 <div className="partecima">
                 <div className="bobEsponja">
-                    <img src={bobEsponja} alt="Bob Esponja" className="bobEsponjaImg" />
+                    <img src={bobEsponja} alt="imagem do jogo Bob Esponja battle for bikini bottom" className="bobEsponjaImg"  onClick={() => navigate('/')} />
                     <p className="texto">100/100</p>
 
                 </div>
                 <div className="deliver">
-                    <img src={deliver} alt="Deliver" className="deliverImg" />
+                    <img src={deliver} alt="imagem do jogo Deliver us mars" className="deliverImg"  onClick={() => navigate('/')} />
                     <p className="texto" >95/100</p>
 
                 </div>
                 </div>
                 <div className="partebaixo">
                 <div className="godWar">
-                    <img src={godWar} alt="God of War" className="godWarImg" />
+                    <img src={godWar} alt="imagem do jogo God of War" className="godWarImg"  onClick={() => navigate('/')}/>
                     <p className="texto" >75/100</p>
 
                 </div>
                 <div className="death">
-                    <img src={death} alt="Death" className="deathImg" />
+                    <img src={death} alt="imagem do jogo Death Stranding" className="deathImg"  onClick={() => navigate('/')} />
                     <p className="texto" >Adicionar Avaliação</p>
 
                 </div>
@@ -63,13 +63,13 @@ function Conta() {
                     <p>Seu CPF é 123.456.789-00</p>
                 </div>
                 <div className="botao1">
-                    <button className="alterar"> Alterar Dados <img src={lapis} className="lapis" /> </button>
+                    <button className="alterar"  onClick={() => navigate('/')}> Alterar Dados <img src={lapis} className="lapis" /> </button>
                 </div>
                 <div className="botao2">
-                    <button className="excluir"> Excluir Conta <img src={lixo} className="lixo" /> </button>
+                    <button className="excluir"  onClick={() => navigate('/')}> Excluir Conta <img src={lixo} className="lixo" /> </button>
                 </div>
                 <div>
-                    <button className="telaAdmin"> Tela do admin </button>
+                    <button className="telaAdmin"  onClick={() => navigate('/')}> Tela do admin </button>
                 </div>
             </div>
 
