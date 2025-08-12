@@ -6,7 +6,7 @@ import './App.css';
 import Conta from './pages/Conta.jsx'; 
 import Populares from './pages/Populares.jsx';
 import React from 'react';
-import Principal from './pages/Principal.jsx';
+import Jogo from './pages/Jogo.jsx';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Route path="/recuperar" element={<RecuperarConta />} />
         <Route path="/conta" element={<Conta />} />
         <Route path="/Populares" element={<Populares/>} />
-        <Route path="/Principal" element={<Principal/>} />
+        <Route path="/Jogo" element={<Jogo/>} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,14 +1,13 @@
 import '../componentes2/NavBar.css';
-import './Principal.css';
+import './Jogo.css';
 import NavBar from '../componentes2/NavBar.jsx';
 import Footer from '../componentes2/Footer.jsx';
 import '../componentes2/Footer.css';
-// import Carrossel from '../componentes2/Carrossel1.jsx';
-// import '../componentes2/Carrossel1.css';
 import carrinhoprinc from '../assets/botaocarrinho.svg';
+import { useNavigate } from 'react-router-dom';
 
 
-function Principal(){
+function Jogo(){
     return(
         <div className="PrincipalGeral">
             <div>
@@ -39,4 +38,4 @@ function Principal(){
     );
 }
 
-export default Principal;
+export default Jogo;

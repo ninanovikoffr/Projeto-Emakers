@@ -60,19 +60,22 @@
 .imagem1{
     width:479px;
     height:282px;
+    cursor:pointer;
 
 }
 
 .imagem2{
     width:479px;
     height:282px;
-    margin-left:4%
+    margin-left:4%;
+    cursor:pointer;
     
 }
 
 .imagem3{
     width:479px;
     height:282px;
+    cursor:pointer;
 
 }
 

@@ -9,7 +9,7 @@ import horizon from '../assets/horizon.png';
 import daysgone from '../assets/daysgone.png';
 import botaocarrinho from '../assets/botaocarrinho.svg';
 import bolinha from '../assets/bolinha.svg';
-
+import { useNavigate } from 'react-router-dom';
 
 function Populares() {
     return (
@@ -25,7 +25,7 @@ function Populares() {
             </div>
             <div className="caixapop1">
                 <div className="imagem1">
-                    <img src={godofwar}/>
+                    <img src={godofwar} onClick={() => navigate('/Jogo')}/>
                 </div>
                 <div className="textinho1">
                     <p className="titulo1pop">God of War</p> 
