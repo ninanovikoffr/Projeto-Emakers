@@ -11,10 +11,10 @@ function NavBar() {
     return(
         <nav className="navbar">
             <div>
-                <img src={img} alt="Logo do site" className="logo" onClick={() => navigate('/')} />
+                <img src={img} alt="Logo do site" className="logo" onClick={() => navigate('/Principal')} />
             </div>
             <div className="Links">
-                <p className="lanc" onClick={() => navigate('/')}>Lançamentos</p>
+                <p className="lanc" onClick={() => navigate('/Erro')}>Lançamentos</p>
             </div>
             <div className="Linha">
                 <img src={linha} />
@@ -26,13 +26,13 @@ function NavBar() {
                 <img src={linha} />
             </div>
             <div className="Links">
-                <p className="gen" onClick={() => navigate('/')}>Gêneros</p>
+                <p className="gen" onClick={() => navigate('/Erro')}>Gêneros</p>
             </div>
             <div className="Linha">
                 <img src={linha} />
             </div>
             <div className="Links">
-                <p className="prom" onClick={() => navigate('/')}>Promoções</p>
+                <p className="prom" onClick={() => navigate('/Erro')}>Promoções</p>
             </div>
             <div className="Linha">
                 <img src={linha} />

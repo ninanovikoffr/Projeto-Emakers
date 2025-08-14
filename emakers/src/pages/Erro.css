@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+.ErroGeral {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:#FBF6F0;
+  color: #4B626C;
+  font-family: "Montserrat";
+  text-align: center;
+  height:737px;
+
+}
+
+.logopequena {
+    margin-top:0%;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.textoerro {
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+.textoerro1 {
+    margin-top:-10px;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+
+.textoerro2 {
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+
+
+.botaoerro{
+    width: 20%;
+    margin: 30px;
+    width: 270px;
+    height: 45px;
+    background-color: #4B626C;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #FBF6F0;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 400;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+

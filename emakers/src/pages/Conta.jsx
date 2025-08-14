@@ -49,7 +49,7 @@ function Conta() {
                 </div>
                 </div>
                 </div>
-                <div className="carrinho" > 
+                <div className="carrinho" onClick={() => navigate('/Erro')}> 
                     <img src={carrinho} /> 
                 </div>
             </div>
@@ -64,13 +64,13 @@ function Conta() {
                     <p>Seu CPF é 123.456.789-00</p>
                 </div>
                 <div className="botao1">
-                    <button className="alterar"  onClick={() => navigate('/')}> Alterar Dados <img src={lapis} className="lapis" /> </button>
+                    <button className="alterar"  onClick={() => navigate('/Erro')}> Alterar Dados <img src={lapis} className="lapis" /> </button>
                 </div>
                 <div className="botao2">
-                    <button className="excluir"  onClick={() => navigate('/')}> Excluir Conta <img src={lixo} className="lixo" /> </button>
+                    <button className="excluir"  onClick={() => navigate('/Erro')}> Excluir Conta <img src={lixo} className="lixo" /> </button>
                 </div>
                 <div>
-                    <button className="telaAdmin"  onClick={() => navigate('/')}> Tela do admin </button>
+                    <button className="telaAdmin"  onClick={() => navigate('/Erro')}> Tela do admin </button>
                 </div>
             </div>
 

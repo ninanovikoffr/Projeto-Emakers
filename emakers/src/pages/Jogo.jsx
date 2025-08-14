@@ -51,12 +51,12 @@ function Jogo(){
                     </div>
 
                     <div className="botoesjogos">
-                    <button className="botaojogo1" onClick={() => navigate('/')}>
+                    <button className="botaojogo1" onClick={() => navigate('/Erro')}>
                         <p>Adicionar ao Carrinho</p>
                         <img src={carrinhopeq} />
 
                     </button>
-                    <button className="botaojogo2" onClick={() => navigate('/')}>
+                    <button className="botaojogo2" onClick={() => navigate('/Erro')}>
                         <p>Solicitar Reembolso</p>
                         <img src={carrinhopeq} />
 
@@ -68,7 +68,7 @@ function Jogo(){
         
         
                 <div className="carrinhoJogo" alt="botao para o carrinho">
-                    <img src={carrinhoJogo} onClick={() => navigate('/')}/>
+                    <img src={carrinhoJogo} onClick={() => navigate('/Erro')}/>
 
                 </div>
             <div>

@@ -59,7 +59,7 @@ function Populares() {
                 </div>
             </div>
             <div className="carrinhopops">
-                <img src={botaocarrinho} onClick={() => navigate('/')}/>
+                <img src={botaocarrinho} onClick={() => navigate('/Erro')}/>
             </div>
             <div>
                 <Footer/>
