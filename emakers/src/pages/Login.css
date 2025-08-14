@@ -3,7 +3,6 @@
 .loginGeral {
     display: flex;
     background: #FBF8F4;
-    margin: -8px;
 }
 .login{
     margin-top: 64px;
@@ -40,7 +39,6 @@
     background: #FBF8F4;
     border: 0px solid;
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 500;
     color: #97A4A2;
     font-size: 24px;
@@ -53,7 +51,6 @@
     background: #FBF8F4;
     border: 0px solid;
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 500;
     color: #97A4A2;
     font-size: 24px ;
@@ -63,11 +60,11 @@
    
 }
 
-.seta{
+.setalogin{
     width: 40px;
     height: 40px;
     background: #FBF8F4;
-    border: 0px solid;
+    border: 0px;
     margin-top: -25px;
     cursor: pointer;
     object-position:left;
@@ -81,18 +78,75 @@
     .loginGeral {
     display: flex;
     flex-direction: column;
+    width:100%;
+    max-width: 430px;
+
+
     }
     .ImagemGrande{
     height:100%;
     width:100%;
-    max-height: 430px;
-    max-width: 430px;
-    order:-1
+    overflow: hidden;
+    order:-1;
+    
     }
     .ImagemGrande img {
     width: 100%;
     height:100%;
+    margin-top: -50px;
+    margin-left: 0px;
+    margin-right: 0px;
     object-fit: cover;
     }
+
+    .login{
+    margin-top: -20px;
+    margin-left: 0%; 
+    width:430px;
+    text-align:center;
+    font-size:32px;
+    
+}
+.loginCaixa {
+    max-width: 430px;
+    height:auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top:20px;
+}
+
+.setalogin{
+    margin-top: -25px;
+    margin-left:340px;
+    margin-right:0px;
+
+}
+
+.input{
+    margin-top:-15px;
+    margin-bottom:-10px;
+    margin-left:10px;
+}
+
+.botoeslogin{
+    width:200px;
+    display:flex;
+    flex-direction:column;
+    margin-bottom:15px;
+    margin-left: 30px;
+}
+
+.criarconta{
+    margin-top: 250px;
+    margin-left: 0px;
+    font-size:16px;
+    text-align: left;
+}
+
+.recuperarconta{
+    margin-left: 0px;
+    font-size:16px;
+    text-align: left;
+}
 
 }

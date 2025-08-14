@@ -71,7 +71,7 @@ function Registrar (){
                 }/>
             </div>
             <div>
-                <button className="seta" alt="seta para a direita" onClick={() =>{ if (emailreg.trim() && senhareg.trim() && cpf.trim() && nome.trim() && confirmar.trim()) {navigate('/conta');} else {alert('Preencha os campos.');}}}>  <img src={setaimagem} alt="Seta"/> </button>
+                <button className="setaregistrar" alt="seta para a direita" onClick={() =>{ if (emailreg.trim() && senhareg.trim() && cpf.trim() && nome.trim() && confirmar.trim()) {navigate('/conta');} else {alert('Preencha os campos.');}}}>  <img src={setaimagem} alt="Seta"/> </button>
             </div>
 
             <button onClick={() => navigate('/')} className="FazerLogin"> Fazer Login</button>

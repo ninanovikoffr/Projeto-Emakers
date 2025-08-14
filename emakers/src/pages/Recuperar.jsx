@@ -21,7 +21,7 @@ function Recuperar (){
             </div>
             
             <div>
-                <button className="seta" alt="seta para a direita" onClick={() => navigate('/Erro')}>  <img src={setaimagem} alt="Seta"/> </button>
+                <button className="setarecuperar" alt="seta para a direita" onClick={() => navigate('/Erro')}>  <img src={setaimagem} alt="Seta"/> </button>
             </div>
 
             <div className="grupo">

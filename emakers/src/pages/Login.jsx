@@ -43,11 +43,11 @@ function Login (){
             <div className="login">Login</div>
 
             <form>
-            <div>
+            <div className="input">
                 <Input placeholder="E-mail" type="email" ref={emailRef} value={email} onChange={(e) => setEmail(e.target.value)} onKeyDown={(e) => handleKeyDown(e, senhaRef)}/>
             </div>
         
-            <div>
+            <div className="input">
                 <Input placeholder="Senha" type="password" ref={senhaRef} value={senha} onChange={(e) => setSenha(e.target.value)} onKeyDown={(e) => { 
                     if (e.key === 'Enter') {
                     e.preventDefault(); 
@@ -58,10 +58,10 @@ function Login (){
             </form>
             
             <div>
-                <button className="seta" alt="seta para a direita" onClick={() =>{ if (email.trim() && senha.trim()) {navigate('/conta');} else {alert('Preencha o e-mail e a senha.');}}}> <img src={setaimagem} alt="Seta"/> </button>
+                <button className="setalogin" alt="seta para a direita" onClick={() =>{ if (email.trim() && senha.trim()) {navigate('/conta');} else {alert('Preencha o e-mail e a senha.');}}}> <img src={setaimagem} alt="Seta"/> </button>
             </div>
             
-            <div>
+            <div className="botoeslogin">
             <button onClick={() => navigate('/registrar')} className="criarconta"> Criar Conta</button>
             <button onClick={() => navigate('/recuperar')} className="recuperarconta"> Esqueceu a Senha? </button>   
             </div>
