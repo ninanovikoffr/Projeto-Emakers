@@ -50,19 +50,19 @@ function Registrar (){
             <div className="registrar">Registrar</div>
 
 
-            <div>
+            <div div className="inputreg">
                 <Input placeholder="Nome de Usuário" type="text" ref={nomeRef} value={nome} onChange={(e) => setnome(e.target.value)} onKeyDown={(e) => handleKeyDown(e, emailRef)} />
             </div>
-            <div>
+            <div div className="inputreg">
                 <Input placeholder="E-mail" type="email" ref={emailRef} value={emailreg} onChange={(e) => setEmail(e.target.value)} onKeyDown={(e) => handleKeyDown(e, cpfRef)}/>
             </div>
-            <div>
+            <div div className="inputreg">
                 <Input placeholder="CPF" type="text" inputMode="numeric" pattern="[0-9]*" ref={cpfRef} value={cpf} onChange={(e) => setcpf(e.target.value)} onKeyDown={(e) => handleKeyDown(e, senhaRef)}/>
             </div>
-            <div>
+            <div div className="inputreg">
                 <Input placeholder="Senha" type="password" ref={senhaRef} value={senhareg} onChange={(e) => setSenha(e.target.value)} onKeyDown={(e) => handleKeyDown(e, confirmaRef)}/>
             </div>
-            <div>
+            <div div className="inputreg">
                 <Input placeholder="Confirmar Senha" type="password" ref={confirmaRef} value={confirmar} onChange={(e) => setconf(e.target.value)} onKeyDown={(e) => { 
                     if (e.key === 'Enter') {
                     e.preventDefault(); 
@@ -78,7 +78,7 @@ function Registrar (){
 
         </div>
 
-        <div className="imagemGrande"> 
+        <div className="imagemGrandereg"> 
             <img src={img} alt="imagem ilustrativa do site"/>
         </div>
 

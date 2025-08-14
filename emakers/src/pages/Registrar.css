@@ -3,7 +3,6 @@
 .registrarGeral {
   display: flex;
   background: #FBF8F4;
-  margin: -8px
 }
 .registrar{
     margin-top: 64px;
@@ -23,12 +22,12 @@
     margin-left: 0px;
     margin-right: 60px;
 }
-.imagemGrande{
+.imagemGrandereg{
     height: 1024px;
     width: 1024px;
     overflow: hidden;
 }
-.imagemGrande img {
+.imagemGrandereg img {
     margin-top: -155px;
     margin-left: -12px;
     width: 115%;
@@ -60,5 +59,71 @@
 }
 
 @media (max-width: 431px) {
+    .registrarGeral {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    max-width: 430px;
+
+
+    }
+    .imagemGrandereg{
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    order:1;
+    
+    }
+    .imagemGrandereg img {
+    width: 100%;
+    height:100%;
+    max-width:430px;
+    margin-top: -50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    object-fit: cover;
+    }
+
+    .registrar{
+    margin-top: -20px;
+    margin-left: 0%; 
+    width:430px;
+    text-align:center;
+    font-size:32px;
+    
+    
+}
+.registrarCaixa {
+    max-width: 430px;
+    height:auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top:20px;
+    order:2;
+}
+
+.setaregistrar{
+    margin-top: -9px;
+    margin-left:340px;
+    margin-right:0px;
+
+}
+
+.inputreg{
+    margin-top:-15px;
+    margin-bottom:-10px;
+    margin-left:10px;
+}
+
+
+.FazerLogin{
+    margin-top: 130px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    font-size:16px;
+    text-align: left;
+}
+
+
     
 }
