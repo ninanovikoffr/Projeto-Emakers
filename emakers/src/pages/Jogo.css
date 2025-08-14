@@ -253,9 +253,7 @@
 .bannerjogos {
     margin-left:2%;
     margin-top:-36px;
-    display:flex;
-    position:absolute;
-    gap:8%;
+    
 
 }
 
@@ -295,10 +293,6 @@
     margin-bottom:3.2%;
 }
 
-.botoesjogos {
-    display:flex;
-    flex-direction: column;  
-}
 
 .botaojogo1 {
     margin-left:14%;
@@ -330,16 +324,14 @@
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    margin-top: 3.5%;
-    margin-bottom:2.5%
+    
 
 }
 .botaojogo2 p{
     width: 230px;
     font-size: 16px;
     font-weight: 500;
-    margin-top: 3.5%;
-    margin-bottom:2.5%
+    
 
 }
 
