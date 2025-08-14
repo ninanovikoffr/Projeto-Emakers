@@ -16,7 +16,7 @@ function Recuperar (){
 
             <div className="recuperarConta">Recuperar Conta</div>
 
-            <div>
+            <div className="inputrecuperar">
                 <Input placeholder="E-mail" type="email" />
             </div>
             
