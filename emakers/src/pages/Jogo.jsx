@@ -12,7 +12,7 @@ import { useNavigate } from 'react-router-dom';
 
 function Jogo(){
     const navigate = useNavigate();
-    
+
     return(
         <div className="JogoGeral">
             <div>

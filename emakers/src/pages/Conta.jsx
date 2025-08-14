@@ -9,6 +9,7 @@ import godWar from '../assets/god.png';
 import death from '../assets/death.png';
 import lixo from '../assets/lixo.svg';
 import lapis from '../assets/lapis.svg';
+import Menu from '../componentes2/Menu.jsx';
 
 
 
@@ -18,7 +19,7 @@ function Conta() {
     return (
         <div className="contaGeral">
             <div>
-                <NavBar />
+                <NavBar className="navBar"/>
             </div>
             <div className="caixaAzul">
                 <div className="subcaixaAzul" >
