@@ -19,7 +19,7 @@ function Erro() {
       </div>
       <div>
       <p className="textoerro1">Ainda não construímos essa página.</p>
-      <p className="textoerro2">Estamos trabalhando para deixar tudo pronto em breve.</p>
+      <p className="textoerro2">Em breve, tudo estará disponível.</p>
       </div>
       
       <button className="botaoerro" onClick={handleVoltar}>
