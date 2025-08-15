@@ -29,9 +29,9 @@ function Carrossel1({ items = [] }) {
         {items.map((item, i) => (
           <SwiperSlide key={i}>
             <article className="carrossel1-card">
-              <img className="carrossel1-img" src={item.image} alt="" />
-              <span className="badge-desconto"> {item.discount}</span>
-              <span className="badge-preco1">R$ {item.price}</span>
+              <img className="carrossel1-img" src={item.imagem} alt="" />
+              <span className="badge-desconto"> {item.desconto}</span>
+              <span className="badge-preco1">R$ {item.preco}</span>
             </article>
           </SwiperSlide>
         ))}

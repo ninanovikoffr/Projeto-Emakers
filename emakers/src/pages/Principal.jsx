@@ -19,17 +19,17 @@ import img8 from '../assets/daysgone.png';
 
 function Principal(){
      const lancamentos = [
-    { image: img1, price: '299,00' },
-    { image: img2, price: '299,00' },
-    { image: img3, price: '299,00' },
-    { image: img4, price: '299,00' },
-    { image: img5, price: '299,00' },
+    { imagem: img1, preco: '299,00' },
+    { imagem: img2, preco: '299,00' },
+    { imagem: img3, preco: '299,00' },
+    { imagem: img4, preco: '299,00' },
+    { imagem: img5, preco: '299,00' },
   ];
 
   const jogosgrandes = [
-    { image: img6, price: '119,95', discount: '-40%'},
-    { image: img7, price: '149,99', discount: '-25%'},
-    { image: img8, price: '169,90', discount: '-15%'},
+    { imagem: img6, preco: '119,95', desconto: '-40%'},
+    { imagem: img7, preco: '149,99', desconto: '-25%'},
+    { imagem: img8, preco: '169,90', desconto: '-15%'},
     
   ];
 

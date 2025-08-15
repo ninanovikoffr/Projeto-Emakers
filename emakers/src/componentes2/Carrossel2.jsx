@@ -28,8 +28,8 @@ export default function Carrossel2({ items = [] }) {
         {items.map((item, i) => (
           <SwiperSlide key={i}>
             <article className="carrossel2-card">
-              <img className="carrossel2-img" src={item.image} alt="" />
-              <span className="badge-preco2">R$ {item.price}</span>
+              <img className="carrossel2-img" src={item.imagem} alt="" />
+              <span className="badge-preco2">R$ {item.preco}</span>
             </article>
           </SwiperSlide>
         ))}

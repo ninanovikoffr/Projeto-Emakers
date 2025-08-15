@@ -18,17 +18,17 @@
     margin-left: 40px;
 }
 
-.Buscar{
+.Buscarnormal{
     margin-top: 2%;
     margin-left: 1%;
 
 }
 
-.buscar:focus {
+.buscarnormal:focus {
     outline: none;
 }
 
-.buscar{
+.buscarnormal{
     padding-left: 6%;
     height: 55%;
     width: 100%;
@@ -49,9 +49,17 @@
     margin-top: 2%;
 }
 
-.lupa{
+.lupa1{
     margin-top: -18%;
     margin-left: 84%;
+}
+
+.Sanduiche{
+    display:none;
+}
+
+.menuRaiz { 
+    display: none;
 }
 
 @media (max-width: 431px) {
@@ -73,7 +81,122 @@
     margin-left: 2%;
 }
 
-.Buscar{
+.Sanduiche{
+    margin-left:60%;
+    margin-top:3.4%;
+    display:block;
+    width:60px;
+    
+}
+
+.Sanduiche img{
+    width:59px;
+
+}
+
+.menuRaiz { 
+    position: relative; 
+    z-index: 1000; 
+    display: block; 
+}
+
+  
+  .fundoEscuro{
+    position: fixed; 
+    inset: 0;
+    background: rgba(0,0,0,.5);
+    display: none;
+  }
+
+  
+  .menuLateral{
+    position: fixed;
+    top: 28%; left: 50%;
+    transform: translate(-50%, -50%);   
+    max-width:430px;
+    max-height: 400px;
+    background: #4B626C; 
+    color: #ffffff;
+    display: none;                      
+    padding: 24px 16px 20px;
+    overflow: auto;
+  }
+
+  .fecharMenu{
+    position: absolute; 
+    top: 20px; 
+    right: 30px;
+    cursor: pointer;
+  }
+
+  .opcoesMenu{
+    width: 100%;
+    display: flex; 
+    flex-direction: column;  
+    text-align: center;
+    font-family:"Montserrat";
+    font-size:24px;
+    font-weight: 300;
+  }
+
+  .opcoesMenu p{
+    margin:0;
+    margin-top:3px;
+  }
+
+  .opcoesburg{
+    height:39px;
+
+  }
+
+  .Linhag{
+    margin-left:31.5%;
+    display:flex;
+    height:20px;
+    justify-items:center;
+  }
+
+  .Buscar{
+    margin-top: 8px;
+    width: 60%;
+    display: flex; 
+    align-items: center; 
+    background: #97A4A2;
+    border-radius: 15px;
+    padding: 10px 12px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+  }
+  .buscar{ 
+    padding-left: 3%;
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    background:transparent
+
+}
+
+.buscar:focus {
+    outline: none;
+}
+
+  .lupa img{ 
+    width: 20px; 
+    height: 20px; 
+    display: block; 
+}
+
+  .menuRaiz.aberto .fundoEscuro{ 
+    display: block; 
+}
+  .menuRaiz.aberto .menuLateral{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+
+
+.Buscarnormal{
     display:none
 
 }
