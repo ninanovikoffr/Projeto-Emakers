@@ -113,14 +113,14 @@
     margin-left: 7.4%;
     margin-top: -1%;
     position: absolute;
-    z-index:90;
+    z-index:8;
 
 }
 
 .classificacao2 {
     margin-left: 58.5%;
     margin-top: -23%;
-    z-index:90;
+    z-index:8;
     position: absolute;
 
 }
@@ -129,7 +129,7 @@
     margin-left: 7.4%;
     margin-top: -0.2%;
     position: absolute;
-    z-index:90;
+    z-index:8;
 
 }
 
