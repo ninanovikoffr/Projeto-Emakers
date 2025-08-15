@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+.PrincipalGeral{
+    
+}
+
+.partebaixoprinc{
+    
+    background-color:#4B626C;
+    height:364px;
+    position: relative; 
+}
+
+.carrinhoprinc{
+    position:absolute;
+    position: absolute;
+    right: 24px;                   
+    bottom: 2%;
+    z-index: 10;
+}
+
+.LANÇAMENTOS{
+    position:absolute;
+    font-family:"Montserrat";
+    font-weight: 300;
+    color:#FBF8F3;
+    margin-left: 5%;
+    margin-left: 9%;
+    margin-top: -0.6%;
+    font-size:32px;
+
+}
+
+.carrosselPeq{
+    position:absolute;
+    margin-left: 9%;
+    margin-top:-50px;;
+    width: 90%;
+    max-width: 430px;
+    
+}
+
+@media (max-width: 431px) {
+    .PrincipalGeral{
+    width:430px;
+}
+
+.carrossel1{
+    margin-top:40px;
+    margin-bottom:70px;
+}
+
+.carrinhoprinc img{
+    width:48px;
+    height:48px;
+
+}
+
+.carrinhoprinc{
+    position:absolute;
+    position: absolute;
+    right: 24px;                   
+    bottom: -16%;
+    z-index: 10;
+}
+
+.LANÇAMENTOS{
+    position:absolute;
+    font-family:"Montserrat";
+    font-weight: 300;
+    color:#FBF8F3;
+    margin-left: 3%;
+    margin-top: 5%;
+    font-size:24px;
+
+}
+
+.carrosselPeq{
+    margin-left: 13%;
+    margin-top:-69%;
+    width: 75%;
+    max-width: 430px;
+      
+}
+}
+
