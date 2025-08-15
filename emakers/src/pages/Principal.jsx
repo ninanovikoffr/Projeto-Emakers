@@ -51,7 +51,7 @@ function Principal(){
 
                          <Carrossel2 items={lancamentos} />
                     </div>
-                    <div className="carrinhoprinc">
+                    <div className="carrinhoprinc" onClick={() => navigate('/Erro')}>
                         <img src={carrinhoprinc}/>
 
                     </div>
