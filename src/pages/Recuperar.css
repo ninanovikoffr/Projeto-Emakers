@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+.recuperarGeral {
+    display: flex;
+    background: #FBF8F4;
+    margin: -8px;
+}
+.recuperarConta{
+    margin-top: 64px;
+    margin-left: 60px; 
+    margin-bottom: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #4B626C;
+    font-size: 64px;
+    font-weight: 400;
+    position: center;
+    text-align: center;
+}
+.recuperarCaixa {
+    width: 475px;
+    height: 1024px;
+    background: #FBF8F4;
+    margin-left: 0px;
+    margin-right: 60px;
+    margin-top:20px;
+}
+.Imagemgrande{
+    height: 1024px;
+    width: 1024px;
+    overflow: hidden;
+}
+.Imagemgrande img {
+    margin-top: -155px;
+    margin-left: -12px;
+    width: 115%;
+    height: 115%;
+    object-fit: cover;
+}
+
+.grupo{
+    margin-left: -250px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.criarConta{
+    background: #FBF8F4;
+    border: 0px solid;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    color: #97A4A2;
+    font-size: 24px;
+    margin-left: 56px;
+    margin-top: 460px;
+    cursor: pointer;
+}
+
+
+.fazerLogin{
+    background: #FBF8F4;
+    border: 0px solid;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    color: #97A4A2;
+    font-size: 24px;
+    margin-left: 56px;
+    margin-top: 9px;
+    cursor: pointer;
+   
+}
+
+.setarecuperar{
+    width: 40px;
+    height: 40px;
+    background: #FBF8F4;
+    border: 0px solid;
+    margin-left: 430px;
+    margin-top: -25px;
+    cursor: pointer;
+}
+
+@media (max-width: 431px) {
+    .recuperarGeral {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    max-width: 430px;
+
+
+    }
+    .Imagemgrande{
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    order:-1;
+    
+    }
+    .Imagemgrande img {
+    width: 100%;
+    height:100%;
+    margin-top: -50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    object-fit: cover;
+    }
+
+    .recuperarConta{
+    margin-top: -20px;
+    margin-left: 0%; 
+    width:430px;
+    text-align:center;
+    font-size:32px;
+    
+}
+.recuperarCaixa {
+    max-width: 430px;
+    height:auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top:20px;
+}
+
+.setarecuperar{
+    margin-top: -9px;
+    margin-left:340px;
+    margin-right:0px;
+
+}
+
+.inputrecuperar{
+    margin-top:-15px;
+    margin-bottom:-10px;
+    margin-left:10px;
+}
+
+.grupo{
+    width:200px;
+    display:flex;
+    flex-direction:column;
+    margin-bottom:25px;
+    margin-left: 30px;
+}
+
+.criarConta{
+    margin-top: 250px;
+    margin-left: 0px;
+    font-size:16px;
+    text-align: left;
+}
+
+.fazerLogin{
+    margin-left: 0px;
+    font-size:16px;
+    text-align: left;
+}
+
+}
