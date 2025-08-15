@@ -154,7 +154,7 @@
   padding: 0; /* espaço para as setas */
    overflow: hidden;               
   --swiper-navigation-size:60px;   
-  --swiper-navigation-sides-offset: 5px; 
+  --swiper-navigation-sides-offset: -4px; 
 
 }
 
@@ -173,7 +173,7 @@
   display: flex !important; /* garante que não sumam */
   align-items: center;
   justify-content: center;
-  top: 55%;
+  top: 50%;
   width: 60px;
   height: 60px;
   z-index: 10; /* fica por cima do conteúdo */
