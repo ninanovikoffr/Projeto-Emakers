@@ -15,9 +15,12 @@ import img5 from '../assets/perish.png';
 import img6 from '../assets/godofwargrande.png';
 import img7 from '../assets/horizon.png';
 import img8 from '../assets/daysgone.png';
+import { useNavigate } from 'react-router-dom';
 
 
 function Principal(){
+    const navigate = useNavigate();
+
      const lancamentos = [
     { imagem: img1, preco: '299,00' },
     { imagem: img2, preco: '299,00' },
@@ -52,7 +55,7 @@ function Principal(){
                          <Carrossel2 items={lancamentos} />
                     </div>
                     <div className="carrinhoprinc" onClick={() => navigate('/Erro')}>
-                        <img src={carrinhoprinc}/>
+                        < img  onClick={() => navigate('/Erro')} src={carrinhoprinc}/>
 
                     </div>
             </div>

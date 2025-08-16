@@ -9,7 +9,7 @@ import godWar from '../assets/god.png';
 import death from '../assets/death.png';
 import lixo from '../assets/lixo.svg';
 import lapis from '../assets/lapis.svg';
-import Menu from '../componentes2/Menu.jsx';
+
 
 
 
