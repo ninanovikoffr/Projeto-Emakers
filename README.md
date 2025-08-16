@@ -1,6 +1,6 @@
 # Game Dame - Plataforma de Venda de Jogos
 
-Bem-vindo ao **Game Dame**, uma plataforma de e-commerce para compra de jogos digitais. Este projeto foi desenvolvido em React e utiliza Vite como ferramenta de build, oferecendo uma experiência de usuário rápida e moderna para gamers descobrirem e adquirirem seus próximos jogos favoritos.
+Bem-vindo ao **Game Dame**, uma plataforma de e-commerce para compra de jogos digitais, desenvolvida para a trilha de Front-End do processo seletivo da Emakers Júnior. Este projeto foi desenvolvido em React e utiliza Vite como ferramenta de build. 
 
 ## 📜 Índice
 
